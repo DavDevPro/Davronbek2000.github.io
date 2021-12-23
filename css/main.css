@@ -1,0 +1,47 @@
+.my__nav {
+  background-color: #f2f2f2;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.my__nav .responsives {
+  margin-left: -100px;
+}
+
+.my__nav .fa-times {
+  font-size: 24px;
+  color: #777;
+}
+
+.nav__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+  padding: 40px 80px;
+  border: 1px solid red;
+}
+
+.nav__two .fa-bars {
+  font-size: 28px;
+}
+
+.head {
+  background-image: url(/images/first-back.jpg);
+}
+/*# sourceMappingURL=main.css.map */

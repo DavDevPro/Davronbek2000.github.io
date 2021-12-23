@@ -1,0 +1,30 @@
+.my__nav {
+    background-color: #f2f2f2;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+    .responsives {
+        margin-left: -100px;
+    }
+
+    .fa-times {
+        font-size: 24px;
+        color: #777;
+    }
+}
+
+.nav__two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 40px 80px;
+    border: 1px solid red;
+
+    .fa-bars {
+        font-size: 28px;
+    }
+}
