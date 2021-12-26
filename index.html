@@ -6,29 +6,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret</title>
+    <link
+        href="https://fonts.googleapis.com/css2?&family=Open+Sans:wght@100&family=Montserrat&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 
-<body>
-
-    <nav class="my__nav">
-        <img src="images/logo-w.png" alt="">
-        <img src="images/web-responsive.png" class="responsives">
+<body class="overflow-hidden">
+    <nav class="my__nav fixed-top">
+        <img src="images/logo-w.png" height="50">
+        <img src="images/web-responsive.png" height="55" class="responsives">
         <i class="fas fa-times"></i>
     </nav>
-    <nav class="nav__two">
-        <img src="images/default-logo.png" alt="">
-        <i class="fas fa-bars"></i>
-    </nav>
-    <div class="head">
-        <img src="images/first-back.jpg" alt="">
+
+    <div class="inbody" id="inbody">
+        <nav class="nav__two">
+            <img src="images/default-logo.png" alt="">
+
+            <div id="main">
+                <i class="fas fa-bars openbtn" onclick="openNav()"></i>
+            </div>
+        </nav>
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                <i class="bi bi-x-lg"></i>
+            </a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <template>☰ Open Sidebar</template>
+
+        <div class="head">
+            <h1 class="secrets">Secrets</h1>
+            <h2>for Growing Your Business Quickly</h2>
+            <p class="p1">Our agency is an independent practice established in 1946 specialising in the valuation and
+                sale of
+                businesses and commercial premises and other related professional services.</p>
+            <p class="p2">Images from <a href="#" class="freepik">Freepik</a></p>
+            <button class="mainbtn">LEARN MORE</button>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sed amet expedita in neque consectetur
+            voluptatem? Illum, id perferendis aperiam laboriosam nisi fuga rem ipsam nihil sapiente a incidunt natus
+            sequi voluptatibus modi dignissimos voluptatem eveniet officia consequuntur magni dolorem blanditiis
+            obcaecati adipisci deserunt autem. Tempora tenetur cupiditate similique nobis! Quibusdam quisquam tempora
+            omnis aliquam dicta quasi pariatur perspiciatis? Incidunt quia laboriosam ducimus eum enim debitis minus qui
+            dolores fugit. Ut accusamus ex aspernatur? Quam, provident. Porro cupiditate minus eaque voluptate eveniet
+            hic minima deleniti corporis omnis odio veniam sunt, quis possimus quae, dolor adipisci suscipit libero ex,
+            esse iusto quo quidem perspiciatis explicabo reprehenderit! Animi cupiditate repudiandae dolorum
+            voluptatibus maxime, quasi perferendis quia vitae hic vel explicabo eveniet rem? Et deserunt saepe illum,
+            provident eaque, aspernatur autem repellendus ullam placeat, minima dolorem odit temporibus laboriosam sunt
+            odio! Nisi nobis reiciendis impedit placeat quo saepe, exercitationem hic voluptates unde minus. Quam ex in
+            perferendis ipsa voluptatum quidem provident a ratione. Adipisci impedit ab corrupti enim commodi dolores,
+            animi dolore explicabo fuga ducimus quae maxime deleniti neque reprehenderit, hic necessitatibus, natus
+            praesentium officiis qui odit maiores a magnam repellendus? Voluptate sequi totam ab sunt sit esse autem
+            aliquam quisquam optio, in dolores dignissimos modi quis doloribus. Nemo fugit impedit provident debitis,
+            animi nesciunt. Omnis, unde modi? Dolores assumenda ducimus dicta animi quos, quis perferendis nihil,
+            corporis vel illum id veritatis illo expedita ab odio? Ipsam possimus id vero odio repellat, corrupti
+            debitis autem accusamus ducimus libero praesentium animi excepturi nulla eveniet numquam doloremque
+            exercitationem minus reprehenderit, nihil pariatur, consectetur molestias consequuntur. Consequatur aut
+            possimus ipsa voluptatem accusantium veniam esse. Minima non facilis saepe facere illo unde mollitia
+            possimus error! Beatae, distinctio molestias. Qui, iusto asperiores molestias cupiditate eaque quod illum
+            doloribus laborum blanditiis sequi corporis autem modi dolores alias dolore vitae labore assumenda corrupti!
+            Reprehenderit id perspiciatis earum, possimus incidunt labore temporibus, aperiam numquam illo, harum esse
+            recusandae voluptatum aliquam mollitia minima quaerat. Repellendus accusantium modi repellat ratione rem ab
+            similique beatae quos magni cum! Nemo laboriosam doloremque nobis exercitationem ipsum ratione nulla
+            blanditiis beatae, tenetur voluptate alias delectus, modi quisquam eveniet quasi distinctio quibusdam
+            excepturi velit iure eum sint inventore rem facere. Doloribus repudiandae sed, quam voluptates maxime animi
+            laboriosam velit similique, assumenda distinctio vel autem odit nesciunt rerum impedit placeat recusandae
+            porro. Quaerat pariatur nisi cumque maxime quo illo aperiam dolore sit aspernatur, praesentium officia odio.
+            Quam aperiam excepturi ipsum iure deserunt voluptatibus maiores, quod doloribus, accusamus vel doloremque
+            commodi non laudantium, sunt id ratione. Debitis officia ut ratione alias? Harum, cupiditate ipsam eaque,
+            deserunt illo officia maiores modi nemo pariatur, voluptatum aut voluptates aspernatur. Ullam tempore,
+            distinctio ut ea vero a sed, quia doloribus, pariatur possimus quos amet neque iusto asperiores assumenda
+            id! Nesciunt consectetur totam pariatur, necessitatibus nulla id! In ab neque iure necessitatibus provident
+            ipsum, corrupti molestiae ullam, quo eligendi maiores vel fugit, magni eaque ipsa! Corrupti corporis
+            similique quo. Modi temporibus accusamus iure repellat distinctio assumenda ex quas totam exercitationem
+            nulla quasi ea, officia molestias?</p>
     </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById("inbody").style.background = "black";
+            document.getElementById("inbody").style.opacity = "0.9";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.getElementById("inbody").style.background = "transparent";
+            document.getElementById("inbody").style.opacity = "1";
+        }
+    </script>
 
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>

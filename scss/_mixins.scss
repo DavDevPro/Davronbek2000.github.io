@@ -1,0 +1,12 @@
+.mainbtn {
+    background-color: #f7eb2f;
+    border: none;
+    height: 80px;
+    width: 260px;
+    font-weight: 700;
+    font-size: 20px;
+
+    &:hover {
+        background-color: #ebeae7;
+    }
+}
